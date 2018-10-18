@@ -1,5 +1,6 @@
 import cx_Oracle
 import re
+"""曲先森"""
 """使用正则表达式    判断注册账号是否合法     规定账号格式"""
 em = re.compile(r'[a-zA-Z0-9]{6,10}@(163|126|qq|sina).com$')
 """登录功能"""
