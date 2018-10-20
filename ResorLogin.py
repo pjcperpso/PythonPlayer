@@ -5,7 +5,7 @@ import re
 em = re.compile(r'[a-zA-Z0-9]{6,10}@(163|126|qq|sina).com$')
 """登录功能"""
 def login():
-    """和数据库创建连接"""
+    """和数据库创建连接1"""
     db = cx_Oracle.connect('用户名/密码@ip地址:端口号')
     cursor = db.cursor()
     flag = 1
