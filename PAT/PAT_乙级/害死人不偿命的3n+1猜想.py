@@ -1,7 +1,8 @@
 """
 偶数:/2.......
 奇数：(3n+1)/2.......
-某一步:n=1
+第n步:n=1
+求n=？
 """
 
 def Callatz(n):
@@ -15,6 +16,6 @@ def Callatz(n):
         else:
             n=(3*n+1)/2
             sum+=1
-    print(sum)
-    
-Callatz(3)
+    return sum
+
+print(Callatz(3),'次')
