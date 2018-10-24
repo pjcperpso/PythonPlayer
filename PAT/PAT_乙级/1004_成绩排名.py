@@ -14,6 +14,7 @@ def ChengjiSort():
     for x in range(0,int(num)):
         msg = input("please input msg:")
         message = msg.split(" ")
+        """键值对形式存值"""
         dic[message[2]]=message[0]+" "+message[1]
         Chengji.append(int(message[2]))
     print(Chengji)
@@ -28,7 +29,7 @@ def ChengjiSort():
                 Chengji[y+1] = temp
     print(Chengji)
 
-    """第一个为最小值    最后一个为最大值       根据dic中键取值"""
+    """第一个为最小值    最后一个为最大值      根据dic中键取值"""
     print(dic[str(Chengji[0])])
     print(dic[str(Chengji[-1])])
 
