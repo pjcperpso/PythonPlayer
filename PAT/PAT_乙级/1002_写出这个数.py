@@ -7,5 +7,5 @@ def write(i):
             print(L[sum])
         else:
             print('yi',L[sum%10])
-            
+
 write(152456156565456468654)
